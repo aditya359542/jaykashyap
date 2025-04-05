@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Plans - PlayGeet</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="theme-toggle">
+        <input type="checkbox" id="theme-switch">
+        <label for="theme-switch" class="toggle-label">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+            <div class="toggle-ball"></div>
+        </label>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>PlayGeet</h1>
+            </div>
+            <nav>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="subscription.html" class="active">Plans</a></li>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#" class="btn-primary">Join Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Choose Your Subscription Plan</h1>
+            <p>Select the plan that fits your needs and start distributing your music globally.</p>
+        </div>
+    </section>
+
+    <section class="subscription-plans">
+        <div class="container">
+            <div class="billing-toggle">
+                <span>Monthly</span>
+                <label class="switch">
+                    <input type="checkbox" id="billing-toggle">
+                    <span class="slider round"></span>
+                </label>
+                <span>Annual <span class="save-badge">Save 20%</span></span>
+            </div>
+            
+            <div class="plans-grid">
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3>Basic Plan</h3>
+                        <div class="plan-price monthly">
+                            <span class="price">$9.99</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <div class="plan-price annual">
+                            <span class="price">$95.90</span>
+                            <span class="period">/year</span>
+                            <span class="save">Save $23.98</span>
+                        </div>
+                    </div>
+                    <div class="plan-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Distribute up to 2 singles per month</li>
+                            <li><i class="fas fa-check"></i> Access to 100+ streaming platforms</li>
+                            <li><i class="fas fa-check"></i> Basic analytics dashboard</li>
+                            <li><i class="fas fa-check"></i> 24/7 email support</li>
+                            <li><i class="fas fa-times"></i> Playlist pitching</li>
+                            <li><i class="fas fa-times"></i> Priority distribution</li>
+                            <li><i class="fas fa-times"></i> Custom release date</li>
+                            <li><i class="fas fa-times"></i> Pre-save links</li>
+                        </ul>
+                    </div>
+                    <div class="plan-footer">
+                        <a href="#" class="btn-secondary">Select Plan</a>
+                    </div>
+                </div>
+                
+                <div class="plan-card featured">
+                    <div class="plan-badge">Popular</div>
+                    <div class="plan-header">
+                        <h3>Pro Plan</h3>
+                        <div class="plan-price monthly">
+                            <span class="price">$19.99</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <div class="plan-price annual">
+                            <span class="price">$191.90</span>
+                            <span class="period">/year</span>
+                            <span class="save">Save $47.98</span>
+                        </div>
+                    </div>
+                    <div class="plan-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Unlimited music distribution</li>
+                            <li><i class="fas fa-check"></i> Access to 150+ streaming platforms</li>
+                            <li><i class="fas fa-check"></i> Advanced analytics dashboard</li>
+                            <li><i class="fas fa-check"></i> 24/7 priority support</li>
+                            <li><i class="fas fa-check"></i> Playlist pitching opportunities</li>
+                            <li><i class="fas fa-check"></i> Priority distribution</li>
+                            <li><i class="fas fa-check"></i> Custom release date</li>
+                            <li><i class="fas fa-check"></i> Pre-save links</li>
+                        </ul>
+                    </div>
+                    <div class="plan-footer">
+                        <a href="#" class="btn-primary">Select Plan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="plan-comparison">
+        <div class="container">
+            <h2 class="section-title">Plan Comparison</h2>
+            
+            <div class="comparison-table-wrapper">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Features</th>
+                            <th>Basic Plan</th>
+                            <th>Pro Plan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monthly Price</td>
+                            <td>$9.99</td>
+                            <td>$19.99</td>
+                        </tr>
+                        <tr>
+                            <td>Annual Price</td>
+                            <td>$95.90</td>
+                            <td>$191.90</td>
+                        </tr>
+                        <tr>
+                            <td>Music Distribution</td>
+                            <td>2 singles per month</td>
+                            <td>Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td>Streaming Platforms</td>
+                            <td>100+</td>
+                            <td>150+</td>
+                        </tr>
+                        <tr>
+                            <td>Analytics Dashboard</td>
+                            <td>Basic</td>
+                            <td>Advanced</td>
+                        </tr>
+                        <tr>
+                            <td>Customer Support</td>
+                            <td>Email Support</td>
+                            <td>Priority Support</td>
+                        </tr>
+                        <tr>
+                            <td>Playlist Pitching</td>
+                            <td><i class="fas fa-times"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Priority Distribution</td>
+                            <td><i class="fas fa-times"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Custom Release Date</td>
+                            <td><i class="fas fa-times"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Pre-save Links</td>
+                            <td><i class="fas fa-times"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Revenue Split</td>
+                            <td>100% to Artist</td>
+                            <td>100% to Artist</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>How does the subscription billing work?</h3>
+                        <span class="accordion-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>You can choose between monthly or annual billing. Annual billing offers a 20% discount compared to monthly billing. You'll be charged at the beginning of each billing cycle.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Can I upgrade or downgrade my plan?</h3>
+                        <span class="accordion-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Yes, you can upgrade or downgrade your plan at any time. If you upgrade, you'll be charged the prorated difference. If you downgrade, the new rate will apply at the start of your next billing cycle.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Do you take a cut of my royalties?</h3>
+                        <span class="accordion-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>No, we don't take any percentage of your royalties. You keep 100% of your earnings. Our revenue comes solely from the subscription fees.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>How long does it take for my music to appear on streaming platforms?</h3>
+                        <span class="accordion-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Basic Plan users can expect their music to appear on streaming platforms within 5-7 business days. Pro Plan users get priority distribution, which typically takes 2-4 business days.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Can I cancel my subscription at any time?</h3>
+                        <span class="accordion-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Yes, you can cancel your subscription at any time. Your plan will remain active until the end of your current billing cycle.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Music Distribution Journey?</h2>
+                <p>Join thousands of independent artists who are distributing, monetizing, and growing with PlayGeet.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn-primary">Get Started Today</a>
+                    <a href="#" class="btn-secondary">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>PlayGeet</h3>
+                    <p>Empowering independent artists to distribute, monetize, and grow their music careers.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="subscription.html">Plans</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Artist Resources</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h4>Stay Updated</h4>
+                    <p>Subscribe to our newsletter for the latest updates and music industry tips.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 PlayGeet. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
