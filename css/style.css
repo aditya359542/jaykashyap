@@ -196,7 +196,7 @@ p {
 .theme-toggle {
     position: fixed;
     top: 20px;
-    right: 20px;
+    right: 100px;
     z-index: 1000;
 }
 
